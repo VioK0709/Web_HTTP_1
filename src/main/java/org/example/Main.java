@@ -13,7 +13,7 @@ public class Main {
     }
 
     private static void initializeHandlers(Server server) {
-        server.addHandler("GET", "/index.html", new Handler() {
+        server.addHandler("GET", "/messages", new Handler() {
             @Override
             public void publish(LogRecord record) {
             }
